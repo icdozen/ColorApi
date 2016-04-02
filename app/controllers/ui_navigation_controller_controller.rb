@@ -1,0 +1,2 @@
+class UiNavigationControllerController < ApplicationController
+end
