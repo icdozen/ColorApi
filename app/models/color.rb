@@ -13,6 +13,8 @@ PROPERTIES = [:timestamp, :hex, :id, :tags]
     }
   end
 
+#tags getter guarantees that it will return an array if no value has been given. 
+#The tags setter ensures that every object in tags will be an actual Tag object. 
 def tags
     @tags ||= []
   end
